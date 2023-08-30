@@ -32,3 +32,26 @@ body {
   max-width: 80%;
   border-radius: 20px;
 }
+
+.card-header {
+  height: 200px;
+  background: url('./images/illustration-hero.svg') center no-repeat;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 2rem;
+}
+
+.card-description {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.main-title {
+  color: var(--dark-blue);
+  margin-bottom: 1rem;
+}
+
+.product-description {
+  color: var(--desatured-blue);
+}
