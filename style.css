@@ -16,6 +16,7 @@ body {
   font-family: 'Red Hat Display';
   background-color: var(--very-pale-blue);
   font-size: 16px;
+  font-weight: 500;
 }
 
 .container {
@@ -28,8 +29,8 @@ body {
 .card {
   text-align: center;
   background-color: #fff;
-  min-width: 340px;
-  max-width: 80%;
+  min-width: 300;
+  max-width: 445px;
   border-radius: 20px;
 }
 
@@ -54,4 +55,75 @@ body {
 
 .product-description {
   color: var(--desatured-blue);
+  margin-bottom: 1rem;
+}
+
+.prices {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--very-pale-blue);
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  padding: 14px;
+  margin-bottom: 1.5rem;
+}
+
+.pricing h2 {
+  font-size: 0.8rem;
+  color: var(--dark-blue);
+  font-weight: 900;
+}
+
+.pricing .rate {
+  font-size: 0.8rem;
+  color: var(--desatured-blue);
+}
+
+.subscriptions-options {
+  font-size: 0.8rem;
+  color: var(--dark-blue);
+  transition: all 0.3s ease;
+}
+
+.subscriptions-options:hover {
+  color: rgba(56, 46, 220, 0.7);
+  text-decoration: none;
+}
+
+
+.actions {
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.actions button {
+  padding: 1rem 63px;
+  border-radius: 10px;
+  border: none;
+}
+
+.cta-happy-path {
+  color: white;
+  background-color: var(--bright-blue);
+  font-weight: 700;
+  box-shadow: 0 15px 20px rgba(56, 46, 220, 0.2);
+  z-index: 99;
+  transition: all 0.3s ease;
+}
+
+.cta-happy-path:hover {
+  background-color: rgba(56, 46, 220, 0.7);
+  cursor: pointer;
+}
+
+.cta-unhappy-path {
+  color: var(--desatured-blue);
+  background-color: white;
+  margin-bottom: 1rem;
 }
