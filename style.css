@@ -61,14 +61,15 @@ body {
 .prices {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
   align-items: center;
+  gap: 1rem;
   background-color: var(--very-pale-blue);
   width: 80%;
   margin: auto;
   border-radius: 20px;
   padding: 14px;
   margin-bottom: 1.5rem;
+  border: 2px solid blue;
 }
 
 .pricing h2 {
@@ -86,13 +87,13 @@ body {
   font-size: 0.8rem;
   color: var(--dark-blue);
   transition: all 0.3s ease;
+  margin-left: auto;
 }
 
 .subscriptions-options:hover {
   color: rgba(56, 46, 220, 0.7);
   text-decoration: none;
 }
-
 
 .actions {
   display: flex;
